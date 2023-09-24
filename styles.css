@@ -21,6 +21,17 @@ body {
   border: 1px solid rgb(218, 217, 217);
 }
 
+.navbar .container .logo {
+  display: inline-block;
+  cursor: pointer;
+  width: 15%; /* adjust this value as needed */
+}
+
+.navbar .container .logo img {
+  max-width: 25%;
+  height: auto;
+}
+
 .navbar .container {
   /* background-color: #555; */
   padding: 15px 0;
@@ -29,13 +40,6 @@ body {
   align-items: center;
   justify-content: space-between;
   /* margin: 0 auto; */
-}
-
-.container .logo {
-  display: inline-block;
-  cursor: pointer;
-  max-height: 40px;
-  max-width: 100%;
 }
 
 .searchbar {
