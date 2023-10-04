@@ -109,6 +109,31 @@ body {
   object-fit: cover;
 }
 
+#profile-menu {
+  position: absolute;
+  top: 100%; /* Adjust the positioning as needed */
+  right: 0;
+  background-color: white;
+  border: 1px solid #ddd;
+  display: none;
+}
+
+#profile-menu a {
+  display: block;
+  padding: 10px;
+  text-decoration: none;
+  color: #333;
+}
+
+#profile-menu a:hover {
+  background-color: #f0f0f0;
+}
+
+/* Add styles for the hidden class */
+.hidden {
+  display: none;
+}
+
 main {
   width: 100%;
   display: flex;

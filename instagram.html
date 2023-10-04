@@ -9,6 +9,7 @@
     <header>
       <nav class="navbar">
         <div class="container">
+          <!-- Casso Logo -->
           <div class="logo">
             <a href="#">
               <img
@@ -17,6 +18,8 @@
               />
             </a>
           </div>
+
+          <!-- Searchbar -->
           <div class="searchbar">
             <input type="text" placeholder="Search" />
             <img
@@ -25,35 +28,40 @@
               alt="img2"
             />
           </div>
+
           <div class="nav-links">
             <ul class="nav-group">
               <li class="nav-item">
-                <a href="#">
-                  <i class="fas fa-home"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="">
-                  <i class="fab fa-facebook-messenger"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="">
-                  <i class="far fa-compass"></i>
-                </a>
-              </li>
-              <li class="nav-item">
-                <a href="">
-                  <i class="far fa-heart"></i>
-                </a>
-              </li>
-              <li class="nav-item">
                 <div class="action">
+                  <!-- PFP -->
                   <div class="profile" onclick="menuToggle()">
                     <img
-                      src="https://media.geeksforgeeks.org/wp-content/uploads/20220609093221/g2-200x200.jpg"
+                      src="Asset Images\Profile Icon.png"
                       alt="user Avatar"
                     />
+                  </div>
+
+                  <!-- PFP -->
+                  <div class="nav-item">
+                    <a href="#" id="messages-button">
+                      <img src="messages.png" alt="Messages" />
+                    </a>
+                  </div>
+                  <div class="nav-item">
+                    <a href="#" id="notifications-button">
+                      <img src="notifications.png" alt="Notifications" />
+                    </a>
+                  </div>
+                  <div class="nav-item">
+                    <a href="#" id="marketplace-button">
+                      <img src="marketplace.png" alt="Marketplace" />
+                    </a>
+                  </div>
+                  <div id="profile-menu" class="hidden">
+                    <!-- Menu content goes here (e.g., links, profile options) -->
+                    <a href="#">Profile</a>
+                    <a href="#">Settings</a>
+                    <a href="#">Logout</a>
                   </div>
                 </div>
               </li>
@@ -720,5 +728,6 @@
         </div>
       </div>
     </main>
+    <script src="scripts.js"></script>
   </body>
 </html>
